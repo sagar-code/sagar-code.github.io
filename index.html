@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <!-- link to faivcon -->
+    <link rel="shortcut icon" href="images/resume.svg" type="image/x-icon" />
+    <!-- link to font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="loading">
+      <img src="images/Bean Eater-1s-200px.gif" alt="laoding gif" />
+    </div>
+    <div id="mainContainer" hidden>
+      <header>
+        <div class="bar"></div>
+        <div class="headerContent">
+          <div class="bio">
+            <div class="emoji">
+              <span>&#128075;</span>
+            </div>
+            <div class="bioContent">
+              <h1 class="bioHeader">
+                Hello! I'm <span class="name"> Sagar Budhathoki </span>,
+                Software Engineer and AI/ML enthusiastic Learner.
+              </h1>
+              <p class="bioParagraph">
+                I'm currently working on my skill in Nepal. For the past 2
+                years, I was involved in designing web and mobile products for
+                several startups across various categories and online bussiness.
+                Now, i am currently working on my machine learning model and
+                backend of several website.
+              </p>
+            </div>
+          </div>
+          <div class="imgPart">
+            <div class="image">
+              <img
+                src="https://cdn.pixabay.com/photo/2016/03/31/21/41/assassin-1296592_960_720.png"
+                alt="protfolio image"
+              />
+            </div>
+            <div class="follow">
+              <p class="link">
+                Get touch on
+                <a
+                  href="https://www.linkedin.com/in/sagar-budhathoki-244187199/"
+                  target="_blank"
+                >
+                  <span class="icon">
+                    <img
+                      src="images/icons8-linkedin-64.png"
+                      alt="linkedin icon"
+                    />
+                  </span>
+                  <span class="text">LinkedIn</span>
+                </a>
+                and
+                <a href="https://twitter.com/sagar8991" target="_blank">
+                  <span class="icon">
+                    <img src="images/icons8-twitter.svg" alt="twitter icon" />
+                  </span>
+                  <span class="text">Twitter</span></a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="githubInfo">
+          <h2>Github Repos Information:</h2>
+
+          <div class="repo">
+            <ul class="repolist" id="myList">
+              <!-- li is added dynamically -->
+            </ul>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footerWrap">
+          <h3>Let's Work Together</h3>
+          <p class="footerdetail">
+            For the past 2 years, I've helped various startup founders to design
+            and launch their web and mobile products.
+            <br />
+            Yours could be next.
+          </p>
+          <a href="mailto:sagarfmt@gmail.com" class="footermail">
+            <span class="mailicon">
+              <img src="images/icons8-mail-64.png" alt="mail icon" />
+              Get in touch.
+            </span>
+          </a>
+        </div>
+      </footer>
+    </div>
+
+    <!-- link to js -->
+    <script src="script.js"></script>
+  </body>
+</html>
