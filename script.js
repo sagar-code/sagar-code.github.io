@@ -1,4 +1,4 @@
-// fetching the github repo
+// fetching the github repo from the github api
 fetch("https://api.github.com/users/sagar-code/repos")
   .then((response) => response.json())
   .then((data) =>
@@ -42,6 +42,6 @@ fetch("https://api.github.com/users/sagar-code/repos")
     })
   );
 
-//   remove the loading after the data is fetched
+//   remove the loading after the data is fetched in ui
 document.getElementById("mainContainer").hidden = false;
 document.getElementById("loading").hidden = true;
